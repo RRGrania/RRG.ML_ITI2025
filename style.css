@@ -1,0 +1,49 @@
+/* styles.css */
+.main-container{
+  display: flex;
+
+}
+.main-container .form-control{
+  position: relative;
+  user-select: none;
+  width: 100%;
+
+}
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+
+
+.navbar-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .explore-text {
+    margin-right: 10px;
+  }
+  
+  

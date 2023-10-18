@@ -1,0 +1,57 @@
+.main-container{
+    display: flex;
+  
+  }
+  .container{
+    margin-top: 150px;
+  }
+  .main-container .form-control{
+    margin: 20px 20px 20px 0px;
+  
+  }
+  .btn {
+    color: rgb(26, 25, 23);
+    border-color: orange;
+    background-color: white;
+    padding: 5px 40px;
+   }
+   .btn:hover {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('image/element.png'); /* Replace with your image URL */
+    background-size: cover;
+    animation: animateBg 20s linear infinite; /* Adjust animation duration as needed */
+  }
+  @keyframes animateBg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  .site-footer {
+    margin-top: 100px;
+    padding: 100px;
+    background-color: #d3c3c3;
+    color: #fff;
+    text-align: center;
+    
+  }
+  
+  .site-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+  
